@@ -1,9 +1,11 @@
 package gois.study.jokeapp.controllers;
 
 import gois.study.jokeapp.services.JokeService;
+import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
 
+@Controller
 public class JokeController {
 
     private JokeService jokeService;
